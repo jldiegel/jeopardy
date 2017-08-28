@@ -20,16 +20,17 @@ $('#select').click(function(){
 
 $('#submitbutton').click(function(){
   if ($('#answer').val() == result){
+    alert("Correct!")
     $('#score').html(parseInt($('#score').html()) + parseInt($('#value').html()))
     reset()
   }
 
   if ($('#answer').val() == ''){
-    console.log("You did not submit an answer")
+    alert("You did not submit an answer")
   }
 
   if ($('#answer').val() !== result && $('#answer').val() !==''){
-    console.log("You got it wrong")
+    alert("You got it wrong")
     reset()
   }
 
