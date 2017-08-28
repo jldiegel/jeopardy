@@ -1,0 +1,46 @@
+body {
+  background-image: url("../images/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+#header {
+  color: white;
+  font-family: 'Bungee Outline', cursive;
+  text-align: center;
+  font-size: 100px;
+}
+
+#select  {
+  width: 500px;
+  height: 250px;
+  white-space: normal;
+  font-size: 25px;
+  color: purple;
+}
+
+
+
+
+.info {
+  font-size: 30px;
+  color: white;
+}
+
+#category, #value {
+  font-size: 18px;
+}
+
+#inputsubmit  {
+  display: flex;
+}
+
+#submitbutton  {
+  height: 35px;
+  border-radius: 5px;
+}
+
+#answer  {
+  border-radius: 5px;
+}
